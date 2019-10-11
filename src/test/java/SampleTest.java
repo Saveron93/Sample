@@ -17,4 +17,6 @@ public class SampleTest {
         database.ProcessEvent(second);
         Assert.assertEquals(database.GetResultDuration("blah"), 3);
     }
+
+    // TODO: More tests...
 }
